@@ -1,0 +1,57 @@
+<html>
+<head>
+  
+  <title>File Upload</title>
+  <style>
+  #header1{
+  background-color:black;
+  color:white;
+  text-align:center;
+  font-size:30px;
+  padding:5px;
+  
+}
+#header2{
+  color:black;
+  font-size:10px;
+  text_align:left;
+}
+#body {
+      	width:1000px;
+    	float:left;
+  		color:#696969;
+  		font-size:10px;  
+}
+#footer{
+  background-color:black;
+  color:white;
+  text-align:center;
+  font-size:15px;
+  clear:both;
+  padding:10px;
+}
+    
+  </style>
+
+</head>
+<body>
+<div id="header1">
+<h1>File Upload</h1>
+</div>
+<div id="header2">
+<h1>Please choose the file that you want to upload</h1>
+</div>
+
+<div id="body">
+<form method="post" enctype="multipart/form-data" action="/">
+	<input type="file" name="filename">
+	<input type="submit" value="upload">
+</form>
+</div>  
+
+<div id="footer">
+2017/07/11 PracticalTest 
+</div>
+  
+</body>
+</html>
