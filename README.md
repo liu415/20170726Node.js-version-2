@@ -19,3 +19,7 @@ This version only change the format of the index.html of version 1
 2.then tap http://localhost :8080 in your browser to finish the file upload
 
 3.the file will upload to your desktop
+
+# Issues
+This version cannot achive :
+to upload a zip file then the user can not get a list of images URL.
